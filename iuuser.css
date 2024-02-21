@@ -1,0 +1,64 @@
+.IUuser {
+    display: none;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    border: solid 1px rgb(192, 192, 192);
+
+}
+
+.boxName {
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    font-family: 'Pixelify Sans', sans-serif;
+
+}
+
+.userContent {
+    justify-content: left;
+    align-items: center;
+}
+
+.boxBar p {
+    font-size: 22px;
+}
+
+.boxBar {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.boxBar span {
+    margin-left: 10px;
+}
+
+.btnIU {
+    width: 100%;
+    padding: 10px;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    border: 1px solid rgb(123, 123, 123);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(206, 206, 206);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.btnIU:hover {
+    transition: 500ms;
+    background-color: rgb(35, 35, 35);
+}
+
+.viewUsername {
+    width: 100px;
+}

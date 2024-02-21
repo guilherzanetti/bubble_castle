@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="choosePlayer.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="iuuser.css">
+    <link rel="stylesheet" href="battleiu.css">
+    <title>Beppu Castle</title>
+</head>
+
+<body>
+
+    <div class="userMaker">
+
+        <div class="firstMenu">
+            <h1>Beppu Castle</h1>
+            <div class="boxBtnMenu">
+                <button class="btnMenu soundMenu1" id="play">Play</button>
+                <button class="btnMenu soundMenu1" id="github">Github</button>
+                <button class="btnMenu soundMenu1" id="exit">Exit</button>
+            </div>
+        </div>
+
+        <div class="choosePlayer">
+            <img class="logo" src="" alt="" width="250px">
+            <h1>Choose your player!</h1>
+            <span class="userSelect">
+                <div>
+                    <button class="btnUserMaker soundMenu1" type="submit" id="wairrorBtn">
+                        <h1>Wairror</h1>
+                        <img src="assets/img/playerImg/wairror.png" alt="" width="200px">
+                    </button>
+                </div>
+                <div>
+                    <button class="btnUserMaker soundMenu1" type="submit" id="archerBtn">
+                        <h1>Archer</h1>
+                        <img src="assets/img/playerImg/archer.png" alt="" width="200px">
+                    </button>
+                </div>
+                <div>
+                    <button class="btnUserMaker soundMenu1" type="submit" id="fireMageBtn">
+                        <h1>Fire Mage</h1>
+                        <img src="assets/img/playerImg/fireMage.png" alt="" width="200px">
+                    </button>
+                </div>
+            </span>
+        </div>
+
+        <div class="nameBox">
+            <h1>What's Your Name?</h1>
+            <div class="sendBox">
+                <input type="text" class="textName" data-ls-module="charCounter" minlength="4" maxlength="8">
+                <label for="nameSend"></label>
+                <button class="nameSend" id="nameSend">Start</button>
+            </div>
+        </div>
+
+        <div class="IUuser">
+            <div class="userContent">
+                <div class="boxName flex">
+                    <img src="" alt="" width="250px" class="userIMG">
+                    <span class="viewUsername">
+                        <h1>Username</h1>
+                    </span>
+                    <span class="viewUsername"></span>
+                </div>
+                <div class="boxBar">
+                    <div class="flex">
+                        <p>xp: </p><span class="viewXp viewUI">0</span>
+                    </div>
+                    <div class="flex">
+                        <p>level: </p><span class="viewLevel viewUI">0</span>
+                    </div>
+                    <div class="flex">
+                        <p>coin: </p><span class="viewCoin viewUI">0</span>
+                    </div>
+                </div>
+
+                <div class="btnBoxIU">
+                    <button class="btnIU" id="btnBattle">Battle</button>
+                    <button class="btnIU" id="btnShop">Shop</button>
+                    <button class="btnIU" id="btnInventory">Inventory</button>
+                    <button class="btnIU" id="btnWork">Work</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="battleIU">
+            <h1>Battle</h1>
+            <div class="countainerBattle">
+                <div class="battleShowPlayer">
+                    <img class=".userIMG battleImgPerson" src="assets/img/monsters/zombie_orc.png" alt="">
+
+                    <div class="HUDbattle">
+                        <p>life: </p>
+                        <span class="showPlayerlife">10</span>
+                    </div>
+                    <div class="HUDbattle">
+                        <p>dano: </p>
+                        <span class="showMonsterlife">10</span>
+                    </div>
+                </div>
+                <div class="battleShowMonster">
+                    <img class="battleMonsterImg battleImgPerson" src="assets/img/monsters/zombie_orc.png" alt="">
+                    <div class="HUDbattle">
+                        <p>life: </p>
+                        <span class="showMonsterlife">10</span>
+                    </div>
+                    <div class="HUDbattle">
+                        <p>dano: </p>
+                        <span class="showMonsterlife">10</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="btnAttackBattle">Attack</button>
+                <button class="btnBackBattle">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="config/player.js"></script>
+    <script src="config/main.js"></script>
+    <script src="config/menu.js"></script>
+    <script src="config/monsters.js"></script>
+    <script src="config/battle.js"></script>
+    <script src="config/userUI.js"></script>
+
+</body>
+
+</html>

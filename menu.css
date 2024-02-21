@@ -1,0 +1,36 @@
+.firstMenu{
+    display: block;
+    width: 40%;
+    padding: 10px;
+}
+
+.btnMenu{
+    width: 100%;
+    padding: 10px;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    border: 1px solid rgb(123, 123, 123);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(206, 206, 206);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.btnMenu:hover {
+    transition: 500ms;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(35, 35, 35);
+}
+
+.HUDbattle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(0, 18, 99, 0.469);
+}
