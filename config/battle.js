@@ -57,6 +57,12 @@ function lifeCheck(userLife, enemyLife){
     }
 }
 
+//New battle
+
+function newBattle(player,enemie){
+    
+}
+
 //Back
 
 const battleBackBtn = document.querySelector('.btnBackBattle');
@@ -68,4 +74,5 @@ function backUserIUBattle (){
 battleBackBtn.addEventListener('click', () => {
     menuNavigator(battleIU, userUI);
 })
+
 
