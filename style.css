@@ -6,18 +6,20 @@
     box-sizing: border-box;
 }
 
-
-h1,p,span {
+h1,h2,p,span {
     font-family: 'Pixelify Sans', sans-serif;
+}
+
+.textYellow{
+    color: rgba(255, 255, 0, 0.849);
 }
 
 body{
     background-image: url('assets/img/castleIMGbackground.png');
     background-repeat: no-repeat;
     background-position: center;
-    
-}
 
+}
 
 .userMaker {
     color: rgb(206, 206, 206);

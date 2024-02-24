@@ -17,6 +17,7 @@ const fireMageBtn = document.querySelector('#fireMageBtn');
 const nameBox = document.querySelector('.nameBox');
 const playerName = document.querySelector('.textName');
 const nameBtn = document.querySelector('.nameSend');
+const errorName = document.querySelector('h2');
 
 //Elementos do userUI
 
@@ -78,6 +79,22 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+// Evento de tecla no botão de envio de nome
+playerName.addEventListener("keyup", function (event) {
+    //SE TECLOU ENTER (13)
+    const name = playerName.value;
+    if (event.keyCode === 13) {
+        if (checkName(name)) {
+            event.preventDefault();
+            player.name = name;
+            console.log(player.name);
+            console.log(player);
+            menuNavigator(nameBox, userUI);
+        }
+        letPlayer();
+    }
+  });  
+
 // Evento de clique no botão de envio de nome
 nameBtn.addEventListener('click', () => {
     const name = playerName.value;
@@ -96,11 +113,12 @@ nameBtn.addEventListener('click', () => {
 // Função para verificar se o nome foi inserido
 function checkName(name) {
     if (name === "") {
-        alert('Please enter your name.');
+        errorName.innerHTML = ('Please enter your name.');
         return false;
     }
     return true;
 }
+
 
 // Reproduzir som de clique
 function clickSound() {
