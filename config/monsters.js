@@ -10,7 +10,7 @@ let enemiesEasy = [
         attack: 12,
         img: "../assets/img/monsters/zombie_orc.png",
         level: monsterLevels,
-        life: 20
+        l3ife: 20
     },
     {
         type: "Fire Demon",
