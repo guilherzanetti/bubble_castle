@@ -1,8 +1,15 @@
 [
     {
-        "name": "Mana ",
+        "name": "Super Mana",
         "type": "Mana",
         "img": "",
-        "value": 1
+        "value": 10
+    },
+
+    {
+       "name": "Life",
+        "type": "Life",
+        "img": "",
+        "value": 15
     }
 ]

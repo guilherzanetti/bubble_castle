@@ -15,7 +15,7 @@ h1,h2,p,span {
 }
 
 body{
-    background-image: url('/assets/img/castleIMGbackground.png');
+    background-image: url('/bubble_castle/assets/img/castleIMGbackground.png');
     background-repeat: no-repeat;
     background-position: center;
 

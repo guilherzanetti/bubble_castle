@@ -31,7 +31,7 @@ let playerClass = [
         attack: 12,
         mana: 15,
         weapon: weapon[0],
-        img: '../assets/img/playerImg/fireMage.png',
+        img: '/bubble_castle/assets/img/playerImg/fireMage.png',
     },
     {
         classtype: "Warrior",
@@ -39,7 +39,7 @@ let playerClass = [
         attack: 13,
         mana: 5,
         weapon: weapon[1],
-        img: '../assets/img/playerImg/wairror.png',
+        img: '/bubble_castle/assets/img/playerImg/wairror.png',
     },
     {
         classtype: "Archer",
@@ -47,7 +47,7 @@ let playerClass = [
         attack: 11,
         mana: 10,
         weapon: weapon[2],
-        img: '../assets/img/playerImg/archer.png',
+        img: '/bubble_castle/assets/img/playerImg/archer.png',
     }
 ];
 
